@@ -1,0 +1,94 @@
+body{
+    overflow-x: hidden;
+}
+.zomato{
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    max-height: 70vh;
+    z-index:100;
+    position: absolute;
+    top:0;
+}
+.bb{
+    color: white;
+    position: absolute;
+   left:5%;
+    z-index: 900;
+    /* border:4px solid red; */
+}
+.banner{
+    width: 100%;
+    object-fit: cover;   
+    z-index:900;
+    height: 23vh;
+}
+.outer{
+width:70vw;
+}
+.ttenclose{
+    width: 30vw;
+}
+.tt{
+    width: 100%;
+    object-fit: cover;   
+    z-index:900;
+    max-height: 20%;  
+    transform: none;
+}
+.tope{
+    text-align: center;
+}
+.bn{
+    width:60vw;
+    padding:1%;
+}
+.bi{
+    margin-top: 9px;
+}
+.imgcard{
+    width: 100%;
+    
+    object-fit: cover;   
+ 
+    max-height: 22vh; 
+}
+.card{
+    transition: all 2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.local{
+    width: 25vw;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    /* padding: 1.2rem 1.5rem; */
+    /* border-radius: 0.8rem; */
+    margin-left: 5%;
+}
+.section{
+    background-color:rgb(255, 251, 247);
+}
+.playimage{
+  width: 100%;
+  height: 50vh;
+}
+.sub{
+    color: white;
+    background: border-box rgb(239, 79, 95);
+}
+.in{
+    width: 50%;
+    height: 3rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+}
+.in:focus{
+    outline:none;
+}
+.app{
+    cursor: pointer;
+    width:20%;
+}
